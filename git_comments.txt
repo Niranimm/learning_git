@@ -1,0 +1,17 @@
+git config --global git.user "(username)"
+git config --global git.email "(username)"
+
+
+git add filename
+git add .
+git commit -m "commit msg"
+git push origin main 
+git status 
+git init
+git remote add origin link
+git branch -M main
+git branch -a
+git checkout branch name
+git giff branchname
+git merge "branch name" (this merge the current merge to main branch)
+

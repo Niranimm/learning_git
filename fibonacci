@@ -1,0 +1,13 @@
+def fibonacci():
+    lit = [0, 1]
+    for i in range(50):
+        a = len(lit)
+        b = lit[a - 2]
+        c = lit[a - 1]
+        d = b + c
+        lit.append(d)
+    return lit
+
+
+fib_sequence = fibonacci()
+print(fib_sequence)
